@@ -1,9 +1,4 @@
-# DeFi Yield Farming
-
-Paper link:
-
-> Cousaert, S., Xu, J., & Matsui, T. (2021). SoK: Yield Aggregators in DeFi. https://ieeexplore.ieee.org/abstract/document/9805523
-> Xu, J. & Feng, Y. (2022). Reap the Harvest on Blockchain: A Survey of Yield Farming Protocols. https://doi.org/10.1109/TNSM.2022.3222815
+# Interest rate parity in DeFi
 
 ## yieldenv
 
@@ -14,8 +9,8 @@ Environment for yield generators
 ### Clone the repo
 
 ```
-git clone https://github.com/xujiahuayz/yieldAggregators.git
-cd yieldAggregators
+git clone https://github.com/xujiahuayz/defi-interest-rate-parity.git
+cd defi-interest-rate-parity
 ```
 
 ### Create a python virtual environment
