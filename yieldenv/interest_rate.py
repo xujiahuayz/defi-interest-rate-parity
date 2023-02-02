@@ -27,6 +27,7 @@ def borrow_lend_rates(
     # initial_borrow_rate / (1 - util_rate) ** EXPONENT
     supply_rate = util_rate / (rs_factor * (1 - util_rate))
     # initial_supply_rate / (1 - util_rate) ** EXPONENT
+    assert supply_rate <= borrow_rate, "supply rate must be less than borrow rate"
     return borrow_rate, supply_rate
 
 
