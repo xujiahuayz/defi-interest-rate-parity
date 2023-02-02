@@ -58,3 +58,8 @@ All files in [`data/`](data/) are stored with `lfs`:
 ```
 git lfs track data/**/*
 ```
+
+# Ethereum Node
+
+Make sure to have installed gov1.19.0.
+We run an Ethereum Node via [erigon](https://github.com/ledgerwatch/erigon).
